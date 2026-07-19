@@ -1,0 +1,387 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 785 470" font-family="'JetBrains Mono','Cascadia Mono','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" xml:space="preserve">
+<rect width="785" height="470" fill="#0C0A08"/>
+<rect x="0.5" y="0.5" width="784" height="469" fill="none" stroke="#241F18"/>
+<g opacity="1"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="1;0;0" keyTimes="0;0.0417;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="376.8" y="248.0" fill="#F2EDE5" font-weight="600" textLength="15.6" lengthAdjust="spacingAndGlyphs">So</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">f</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs">ronie.</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 716 / 2069 · 35% ························································· 3:53 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.0417;0.0833;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="384.6" y="248.0" fill="#F2EDE5" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">H</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="15.6" lengthAdjust="spacingAndGlyphs">ir</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 717 / 2069 · 35% ························································· 3:53 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.0833;0.1250;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="384.6" y="248.0" fill="#F2EDE5" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">G</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">o</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="23.4" lengthAdjust="spacingAndGlyphs">ods</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 718 / 2069 · 35% ························································· 3:52 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.1250;0.1667;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="384.6" y="248.0" fill="#F2EDE5" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">o</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">f</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 719 / 2069 · 35% ························································· 3:52 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.1667;0.2083;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="384.6" y="248.0" fill="#F2EDE5" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">K</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">i</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="39.0" lengthAdjust="spacingAndGlyphs">nds.”</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 721 / 2069 · 35% ························································· 3:52 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.2083;0.2500;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="384.6" y="248.0" fill="#F2EDE5" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">K</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">i</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="39.0" lengthAdjust="spacingAndGlyphs">nds.”</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 721 / 2069 · 35% ························································· 3:52 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.2500;0.2917;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="384.6" y="248.0" fill="#F2EDE5" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">O</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">n</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 722 / 2069 · 35% ························································· 3:52 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.2917;0.3333;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="376.8" y="248.0" fill="#F2EDE5" font-weight="600" textLength="15.6" lengthAdjust="spacingAndGlyphs">fl</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">i</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="23.4" lengthAdjust="spacingAndGlyphs">ght</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 723 / 2069 · 35% ························································· 3:52 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.3333;0.3750;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="384.6" y="248.0" fill="#F2EDE5" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">D</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="23.4" lengthAdjust="spacingAndGlyphs">lla</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 725 / 2069 · 35% ························································· 3:51 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.3750;0.4167;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="384.6" y="248.0" fill="#F2EDE5" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">r</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="15.6" lengthAdjust="spacingAndGlyphs">n,</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 726 / 2069 · 35% ························································· 3:51 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.4167;0.4583;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="384.6" y="248.0" fill="#F2EDE5" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">r</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="15.6" lengthAdjust="spacingAndGlyphs">n,</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 726 / 2069 · 35% ························································· 3:51 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.4583;0.5000;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="376.8" y="248.0" fill="#F2EDE5" font-weight="600" textLength="15.6" lengthAdjust="spacingAndGlyphs">co</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">l</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs">lected</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 728 / 2069 · 35% ························································· 3:51 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.5000;0.5417;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="376.8" y="248.0" fill="#F2EDE5" font-weight="600" textLength="15.6" lengthAdjust="spacingAndGlyphs">he</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">r</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="39.0" lengthAdjust="spacingAndGlyphs">self,</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 729 / 2069 · 35% ························································· 3:51 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.5417;0.5833;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="376.8" y="248.0" fill="#F2EDE5" font-weight="600" textLength="15.6" lengthAdjust="spacingAndGlyphs">he</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">r</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="39.0" lengthAdjust="spacingAndGlyphs">self,</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 729 / 2069 · 35% ························································· 3:51 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.5833;0.6250;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="376.8" y="248.0" fill="#F2EDE5" font-weight="600" textLength="15.6" lengthAdjust="spacingAndGlyphs">pa</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">n</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="39.0" lengthAdjust="spacingAndGlyphs">ting.</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 730 / 2069 · 35% ························································· 3:50 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.6250;0.6667;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="376.8" y="248.0" fill="#F2EDE5" font-weight="600" textLength="15.6" lengthAdjust="spacingAndGlyphs">pa</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">n</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="39.0" lengthAdjust="spacingAndGlyphs">ting.</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 730 / 2069 · 35% ························································· 3:50 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.6667;0.7083;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="376.8" y="248.0" fill="#F2EDE5" font-weight="600" textLength="15.6" lengthAdjust="spacingAndGlyphs">Ma</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">d</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="31.2" lengthAdjust="spacingAndGlyphs">ame,</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 731 / 2069 · 35% ························································· 3:50 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.7083;0.7500;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="384.6" y="248.0" fill="#F2EDE5" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">l</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="31.2" lengthAdjust="spacingAndGlyphs">rge,</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 732 / 2069 · 35% ························································· 3:50 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.7500;0.7917;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="384.6" y="248.0" fill="#F2EDE5" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">t</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">o</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">o</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 733 / 2069 · 35% ························································· 3:49 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.7917;0.8333;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="384.6" y="248.0" fill="#F2EDE5" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">w</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">h</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="31.2" lengthAdjust="spacingAndGlyphs">ite,</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 734 / 2069 · 35% ························································· 3:49 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.8333;0.8750;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="376.8" y="248.0" fill="#F2EDE5" font-weight="600" textLength="15.6" lengthAdjust="spacingAndGlyphs">ch</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">i</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="31.2" lengthAdjust="spacingAndGlyphs">lly,</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 735 / 2069 · 36% ························································· 3:49 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.8750;0.9167;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="376.8" y="248.0" fill="#F2EDE5" font-weight="600" textLength="15.6" lengthAdjust="spacingAndGlyphs">ch</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">i</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="31.2" lengthAdjust="spacingAndGlyphs">lly,</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 735 / 2069 · 36% ························································· 3:49 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.9167;0.9583;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="376.8" y="248.0" fill="#F2EDE5" font-weight="600" textLength="15.6" lengthAdjust="spacingAndGlyphs">ha</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">r</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="23.4" lengthAdjust="spacingAndGlyphs">dly</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="257.4" lengthAdjust="spacingAndGlyphs">█████████████████████████████████</text>
+<text x="283.2" y="418.0" fill="#807769" textLength="475.8" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 736 / 2069 · 36% ························································· 3:49 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="4.32s" repeatCount="indefinite" calcMode="discrete" values="0;1;1" keyTimes="0;0.9583;1"/><text x="18.0" y="27.0" fill="#F2EDE5" font-weight="600" textLength="46.8" lengthAdjust="spacingAndGlyphs"> FLICK</text>
+<text x="64.8" y="27.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">_</text>
+<text x="525.0" y="27.0" fill="#807769" textLength="234.0" lengthAdjust="spacingAndGlyphs">THE GIFT OF THE MAGI · PLAYING</text>
+<text x="236.4" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="214.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┬</text>
+<text x="400.2" y="214.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="384.6" y="248.0" fill="#F2EDE5" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">t</text>
+<text x="392.4" y="248.0" fill="#F53B30" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">h</text>
+<text x="400.2" y="248.0" fill="#F2EDE5" font-weight="600" textLength="7.8" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="236.4" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="392.4" y="282.0" fill="#F53B30" textLength="7.8" lengthAdjust="spacingAndGlyphs">┴</text>
+<text x="400.2" y="282.0" fill="#807769" textLength="156.0" lengthAdjust="spacingAndGlyphs">────────────────────</text>
+<text x="25.8" y="418.0" fill="#F53B30" textLength="265.2" lengthAdjust="spacingAndGlyphs">██████████████████████████████████</text>
+<text x="291.0" y="418.0" fill="#807769" textLength="468.0" lengthAdjust="spacingAndGlyphs">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
+<text x="18.0" y="435.0" fill="#807769" textLength="741.0" lengthAdjust="spacingAndGlyphs"> 738 / 2069 · 36% ························································· 3:49 LEFT · 350 WPM</text>
+<text x="18.0" y="452.0" fill="#F2EDE5" textLength="577.2" lengthAdjust="spacingAndGlyphs"> SPACE PLAY/PAUSE · ← → SENTENCE · ↑ ↓ WPM · Z ZEN · R RESTART · Q LIBRARY</text></g>
+</svg>
