@@ -6,7 +6,7 @@ RSVP speed reading in your terminal — one word at a time, eyes still.
 
 <p align="center">
 <a href="https://github.com/one-more-refactor/flick-tui/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/one-more-refactor/flick-tui/ci.yml?style=flat-square&label=CI&labelColor=0C0A08" alt="CI"></a>
-<img src="https://img.shields.io/badge/license-AGPL--3.0-F53B30?style=flat-square&labelColor=0C0A08" alt="AGPL-3.0">
+<img src="https://img.shields.io/badge/license-AGPL--3.0-F2EDE5?style=flat-square&labelColor=0C0A08" alt="AGPL-3.0">
 <img src="https://img.shields.io/badge/rust-ratatui-807769?style=flat-square&labelColor=0C0A08" alt="Rust · ratatui">
 </p>
 
