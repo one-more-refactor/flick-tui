@@ -111,6 +111,8 @@ impl App {
             if self.finished {
                 self.idx = 0;
                 self.finished = false;
+                // re-reading counts again: move the stats baseline back with the cursor
+                self.last_reported_idx = 0;
             }
             self.playing = true;
             self.ramp_ms = 0.0;
@@ -135,6 +137,9 @@ impl App {
         self.idx = 0;
         self.acc_ms = 0.0;
         self.finished = false;
+        // without this, words re-read after a restart were not reported until
+        // the cursor passed the old position again
+        self.last_reported_idx = 0;
     }
 
     pub fn bump_wpm(&mut self, delta: i32) {
@@ -316,5 +321,76 @@ mod tests {
         assert!(s.words >= 20);
         assert!(s.duration_ms >= 10_000);
         assert!(s.avg_wpm > 0);
+    }
+
+    #[test]
+    fn restart_moves_report_baseline_back() {
+        let mut app = app(&["a", "b", "c", "d", "e", "f"], 300);
+        app.idx = 4;
+        assert_eq!(app.take_report(), (4, 4));
+        app.restart();
+        app.idx = 2;
+        assert_eq!(app.take_report(), (2, 2));
+    }
+
+    #[test]
+    fn replay_after_end_counts_again() {
+        let mut app = app(&["a", "b", "c"], 600);
+        app.toggle_play();
+        while app.playing {
+            app.tick(16.0);
+        }
+        assert!(app.finished);
+        let _ = app.take_report();
+        app.toggle_play(); // Space at END_ restarts from the top
+        assert_eq!(app.idx, 0);
+        assert!(app.playing && !app.finished);
+        app.idx = 2;
+        assert_eq!(app.take_report(), (2, 2));
+    }
+
+    #[test]
+    fn wpm_is_clamped_and_stepped() {
+        let mut app = app(&["a"], 50);
+        assert_eq!(app.wpm, WPM_MIN);
+        app.bump_wpm(-(WPM_STEP as i32));
+        assert_eq!(app.wpm, WPM_MIN);
+        app.bump_wpm(WPM_STEP as i32);
+        assert_eq!(app.wpm, WPM_MIN + WPM_STEP);
+        app.bump_wpm(10_000);
+        assert_eq!(app.wpm, WPM_MAX);
+    }
+
+    #[test]
+    fn start_position_is_clamped_into_the_book() {
+        let a = App::new("t".into(), "b".into(), words(&["a", "b"]), 300, 99);
+        assert_eq!(a.idx, 1);
+    }
+
+    #[test]
+    fn next_sentence_and_context_strip() {
+        let mut app = app(&["One", "two.", "Three", "four", "five.", "Six"], 300);
+        app.next_sentence();
+        assert_eq!(app.idx, 2);
+        let s: Vec<&str> = app.current_sentence().iter().map(|w| w.1).collect();
+        assert_eq!(s, ["Three", "four", "five."]);
+        app.next_sentence();
+        assert_eq!(app.idx, 5);
+        app.next_sentence(); // no further sentence end: stays on the last word
+        assert_eq!(app.idx, 5);
+        app.prev_sentence();
+        assert_eq!(app.idx, 2);
+    }
+
+    #[test]
+    fn time_left_follows_weights_and_wpm() {
+        let w = vec![
+            TimelineWord("a".into(), 0, 1.0),
+            TimelineWord("b.".into(), 0, 2.0),
+        ];
+        let app = App::new("t".into(), "b".into(), w, 300, 0);
+        // 3 weight units at 300 wpm = 3 × 200 ms
+        assert!((app.ms_left() - 600.0).abs() < 1e-6);
+        assert!((app.progress() - 0.5).abs() < 1e-9);
     }
 }
