@@ -209,7 +209,11 @@ fn split_word(app: &App) -> TimelineWordParts {
     TimelineWordParts {
         pre: chars[..orp].iter().collect(),
         pivot: chars.get(orp).map(|c| c.to_string()).unwrap_or_default(),
-        post: chars[orp + 1..].iter().collect(),
+        // `get` so an empty token from the server renders blank instead of panicking
+        post: chars
+            .get(orp + 1..)
+            .map(|rest| rest.iter().collect())
+            .unwrap_or_default(),
     }
 }
 
@@ -298,5 +302,130 @@ fn truncated(s: &str, max: usize) -> String {
     } else {
         let cut: String = s.chars().take(max.saturating_sub(1)).collect();
         format!("{cut}…")
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::api::TimelineWord;
+    use ratatui::backend::TestBackend;
+    use ratatui::buffer::Buffer;
+    use ratatui::Terminal;
+
+    fn render(w: u16, h: u16, draw: impl FnOnce(&mut Frame)) -> Buffer {
+        let mut t = Terminal::new(TestBackend::new(w, h)).expect("terminal");
+        t.draw(draw).expect("draw");
+        t.backend().buffer().clone()
+    }
+
+    fn line(buf: &Buffer, y: u16) -> String {
+        let w = buf.area.width;
+        (0..w).map(|x| buf[(x, y)].symbol()).collect()
+    }
+
+    fn reader(tokens: &[(&str, usize)]) -> App {
+        let words = tokens
+            .iter()
+            .map(|&(t, orp)| TimelineWord(t.to_string(), orp, 1.0))
+            .collect();
+        App::new("The Gift".into(), "b1".into(), words, 300, 0)
+    }
+
+    fn book(title: &str, words: usize, position: usize) -> Book {
+        Book {
+            id: title.to_lowercase(),
+            title: title.into(),
+            word_count: words,
+            position,
+            last_read_at: None,
+        }
+    }
+
+    #[test]
+    fn pivot_letter_is_pinned_to_the_centre_column_in_red() {
+        let app = reader(&[("Hello", 1), ("world.", 1)]);
+        let buf = render(80, 24, |f| draw_reader(f, &app));
+        let (cx, mid) = (40, 12);
+        assert_eq!(buf[(cx, mid)].symbol(), "e");
+        assert_eq!(buf[(cx, mid)].fg, ACCENT);
+        assert_eq!(buf[(cx - 1, mid)].symbol(), "H");
+        assert_eq!(buf[(cx, mid - 2)].symbol(), "┬");
+        assert_eq!(buf[(cx, mid + 2)].symbol(), "┴");
+        assert_eq!(buf[(cx, mid + 2)].fg, ACCENT);
+    }
+
+    #[test]
+    fn paused_reader_shows_header_context_status_and_help() {
+        let app = reader(&[("Hello", 1), ("world.", 1)]);
+        let buf = render(80, 24, |f| draw_reader(f, &app));
+        let header = line(&buf, 0);
+        assert!(header.contains("FLICK_"), "{header}");
+        assert!(header.contains("THE GIFT · PAUSED"), "{header}");
+        assert!(line(&buf, 16).contains("Hello world."));
+        let status = line(&buf, 22);
+        assert!(status.contains("1 / 2"), "{status}");
+        assert!(status.contains("300 WPM"), "{status}");
+        assert!(line(&buf, 23).contains("SPACE PLAY/PAUSE"));
+    }
+
+    #[test]
+    fn zen_mode_hides_everything_but_word_and_progress() {
+        let mut app = reader(&[("Hello", 1), ("world.", 1)]);
+        app.zen = true;
+        let buf = render(80, 24, |f| draw_reader(f, &app));
+        assert!(!line(&buf, 0).contains("FLICK"));
+        assert!(!line(&buf, 22).contains("WPM"));
+        assert!(!line(&buf, 16).contains("world."));
+        assert!(line(&buf, 23).contains('█'));
+        assert_eq!(buf[(40, 12)].symbol(), "e");
+    }
+
+    #[test]
+    fn empty_token_and_tiny_terminals_do_not_panic() {
+        let app = reader(&[("", 0)]);
+        render(80, 24, |f| draw_reader(f, &app));
+        render(10, 3, |f| draw_reader(f, &app));
+        let lib = Library::new(vec![book("A", 10, 0)], "GUEST @ x".into());
+        render(10, 3, |f| draw_library(f, &lib));
+        render(30, 5, |f| draw_library(f, &lib));
+    }
+
+    #[test]
+    fn library_lists_books_with_selection_and_progress() {
+        let mut lib = Library::new(
+            vec![
+                book("Intro", 200, 50),
+                book("The Gift of the Magi", 2100, 0),
+            ],
+            "GUEST @ app.myflick.app".into(),
+        );
+        lib.down();
+        lib.down(); // clamped at the last row
+        assert_eq!(lib.sel, 1);
+        let buf = render(80, 12, |f| draw_library(f, &lib));
+        assert!(line(&buf, 0).contains("GUEST @ app.myflick.app"));
+        let first = line(&buf, 2);
+        assert!(first.contains("01  INTRO"), "{first}");
+        assert!(first.contains("200 W ·  25%"), "{first}");
+        let second = line(&buf, 3);
+        assert!(second.starts_with("▶ 02  THE GIFT OF"), "{second}");
+        assert!(line(&buf, 11).contains("ENTER READ"));
+        lib.up();
+        lib.up();
+        assert_eq!(lib.sel, 0);
+    }
+
+    #[test]
+    fn empty_library_shows_a_hint() {
+        let lib = Library::new(vec![], "GUEST @ x".into());
+        let buf = render(80, 12, |f| draw_library(f, &lib));
+        assert!(line(&buf, 3).contains("LIBRARY EMPTY"));
+    }
+
+    #[test]
+    fn truncation_adds_an_ellipsis() {
+        assert_eq!(truncated("short", 10), "short");
+        assert_eq!(truncated("abcdefghij", 5), "abcd…");
     }
 }
