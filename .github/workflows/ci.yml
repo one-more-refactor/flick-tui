@@ -5,14 +5,39 @@ on:
     branches: [master]
   pull_request:
 
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CARGO_TERM_COLOR: always
+
 jobs:
   check:
+    name: fmt · clippy · test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@stable
         with:
           components: rustfmt, clippy
+      - uses: Swatinem/rust-cache@v2
       - run: cargo fmt --check
-      - run: cargo clippy -- -D warnings
-      - run: cargo test
+      - run: cargo clippy --locked --all-targets -- -D warnings
+      # unit tests (reader state machine, TestBackend renders) plus the
+      # end-to-end tests in tests/cli.rs, which run the real binary against
+      # an in-process mock of the flick API
+      - run: cargo test --locked
+
+  media-scripts:
+    name: media scripts lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash -n media/capture.sh
+      - run: python3 -m py_compile media/mock_server.py
+      - name: every tape writes into docs/media/
+        run: |
+          for t in media/*.tape; do
+            grep -q '^Output docs/media/' "$t" || { echo "::error file=$t::no 'Output docs/media/…'"; exit 1; }
+          done
