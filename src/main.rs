@@ -413,3 +413,45 @@ fn event_loop(
         }
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn book(id: &str, word_count: usize, position: usize, last_read_at: Option<i64>) -> Book {
+        Book {
+            id: id.into(),
+            title: id.into(),
+            word_count,
+            position,
+            last_read_at,
+        }
+    }
+
+    #[test]
+    fn library_order_is_in_progress_then_unread_then_finished() {
+        let mut books = vec![
+            book("done", 10, 10, Some(50)),
+            book("unread", 10, 0, None),
+            book("old", 10, 3, Some(1)),
+            book("recent", 10, 5, Some(9)),
+        ];
+        sort_books(&mut books);
+        let ids: Vec<&str> = books.iter().map(|b| b.id.as_str()).collect();
+        assert_eq!(ids, ["recent", "old", "unread", "done"]);
+    }
+
+    #[test]
+    fn server_urls_are_normalized() {
+        assert_eq!(
+            normalize_url(" https://flick.example.org/ ").unwrap(),
+            "https://flick.example.org"
+        );
+        assert_eq!(
+            normalize_url("http://localhost:8484").unwrap(),
+            "http://localhost:8484"
+        );
+        assert!(normalize_url("flick.example.org").is_err());
+        assert!(normalize_url("ftp://flick.example.org").is_err());
+    }
+}
