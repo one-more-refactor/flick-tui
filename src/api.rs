@@ -4,13 +4,14 @@
 
 use std::time::Duration;
 
-use serde::Deserialize;
+use serde::{Deserialize, Deserializer};
 use serde_json::json;
 
 use crate::config::Config;
 
 #[derive(Deserialize, Clone)]
 pub struct User {
+    #[serde(deserialize_with = "clean_string")]
     pub name: String,
     #[serde(default)]
     pub guest: bool,
@@ -25,6 +26,7 @@ pub struct Settings {
 #[derive(Deserialize, Clone)]
 pub struct Book {
     pub id: String,
+    #[serde(deserialize_with = "clean_string")]
     pub title: String,
     pub word_count: usize,
     #[serde(default)]
@@ -47,7 +49,32 @@ pub struct Timeline {
 }
 
 #[derive(Deserialize, Clone, PartialEq, Debug)]
-pub struct TimelineWord(pub String, pub usize, pub f32);
+pub struct TimelineWord(
+    #[serde(deserialize_with = "clean_string")] pub String,
+    pub usize,
+    pub f32,
+);
+
+/// Book text and titles are user content (pasted text, uploaded files, web
+/// articles, shared books) and a self-hosted server is whatever its operator
+/// runs. Neither may write raw control characters to the terminal: ratatui
+/// passes cell contents through verbatim, so an ESC in a word would reach the
+/// terminal as a live escape sequence (OSC 52 clipboard writes, title changes,
+/// screen clears). Whitespace controls become a space; every other control
+/// character (C0, DEL, C1 — ESC and CSI included) is dropped.
+pub fn clean(s: &str) -> String {
+    s.chars()
+        .filter_map(|c| match c {
+            '\t' | '\n' | '\r' => Some(' '),
+            c if c.is_control() => None,
+            c => Some(c),
+        })
+        .collect()
+}
+
+fn clean_string<'de, D: Deserializer<'de>>(d: D) -> Result<String, D::Error> {
+    String::deserialize(d).map(|s| clean(&s))
+}
 
 #[derive(Clone)]
 pub struct Client {
@@ -181,8 +208,36 @@ fn err_msg(e: ureq::Error) -> String {
         ureq::Error::Status(code, resp) => resp
             .into_json::<serde_json::Value>()
             .ok()
-            .and_then(|v| v["error"].as_str().map(String::from))
+            .and_then(|v| v["error"].as_str().map(clean))
             .unwrap_or_else(|| format!("server returned {code}")),
         ureq::Error::Transport(t) => t.to_string(),
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn clean_drops_escape_sequences_and_c1_controls() {
+        assert_eq!(clean("a\x1b]52;c;cHduZWQ=\x07b"), "a]52;c;cHduZWQ=b");
+        assert_eq!(clean("x\x1b[2Jy\u{9b}31m\u{7f}"), "x[2Jy31m");
+        assert_eq!(clean("two\nlines\tand\rtabs"), "two lines and tabs");
+        assert_eq!(clean("Grüße — ok"), "Grüße — ok");
+    }
+
+    #[test]
+    fn server_strings_are_cleaned_on_the_way_in() {
+        let t: Timeline =
+            serde_json::from_str(r#"{"words":[["ev\u001b]0;PWNED\u0007il",1,1.0]]}"#).unwrap();
+        assert_eq!(t.words[0].0, "ev]0;PWNEDil");
+        let b: Book =
+            serde_json::from_str(r#"{"id":"b1","title":"T\u001b[2J\u009bitle","word_count":3}"#)
+                .unwrap();
+        assert_eq!(b.title, "T[2Jitle");
+        let u: User =
+            serde_json::from_str(r#"{"name":"m\u001b]52;c;eA==\u0007e","settings":{"wpm":300}}"#)
+                .unwrap();
+        assert_eq!(u.name, "m]52;c;eA==e");
     }
 }

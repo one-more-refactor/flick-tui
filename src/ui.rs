@@ -209,7 +209,12 @@ fn split_word(app: &App) -> TimelineWordParts {
     TimelineWordParts {
         pre: chars[..orp].iter().collect(),
         pivot: chars.get(orp).map(|c| c.to_string()).unwrap_or_default(),
-        post: chars[orp + 1..].iter().collect(),
+        // `get`: an empty token (a word that was all control characters, or
+        // an empty string from the server) renders blank instead of panicking
+        post: chars
+            .get(orp + 1..)
+            .map(|rest| rest.iter().collect())
+            .unwrap_or_default(),
     }
 }
 
@@ -298,5 +303,57 @@ fn truncated(s: &str, max: usize) -> String {
     } else {
         let cut: String = s.chars().take(max.saturating_sub(1)).collect();
         format!("{cut}…")
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::api::Timeline;
+    use ratatui::backend::CrosstermBackend;
+    use ratatui::{Terminal, TerminalOptions, Viewport};
+
+    /// The bytes ratatui would actually write to the terminal for two frames.
+    fn terminal_bytes(app: &mut App) -> String {
+        let mut out: Vec<u8> = Vec::new();
+        {
+            let opts = TerminalOptions {
+                viewport: Viewport::Fixed(Rect::new(0, 0, 80, 24)),
+            };
+            let mut t = Terminal::with_options(CrosstermBackend::new(&mut out), opts).unwrap();
+            t.draw(|f| draw_reader(f, app)).unwrap();
+            app.idx = 1;
+            t.draw(|f| draw_reader(f, app)).unwrap();
+        }
+        String::from_utf8_lossy(&out).into_owned()
+    }
+
+    #[test]
+    fn hostile_book_text_cannot_inject_terminal_escapes() {
+        let timeline: Timeline = serde_json::from_str(
+            r#"{"words":[["a\u001b]52;c;cHduZWQ=\u0007b",0,1.0],["x\u001b[2Jy\u009b31m",0,1.0]]}"#,
+        )
+        .unwrap();
+        let book: crate::api::Book = serde_json::from_str(
+            r#"{"id":"b","title":"T\u001b]0;PWNED\u0007itle","word_count":2}"#,
+        )
+        .unwrap();
+        let mut app = App::new(book.title, book.id, timeline.words, 300, 0);
+        let out = terminal_bytes(&mut app);
+        assert!(!out.contains("\x1b]"), "OSC sequence reached the terminal");
+        assert!(
+            !out.contains("\x1b[2J"),
+            "clear-screen reached the terminal"
+        );
+        assert!(!out.contains('\u{9b}'), "C1 CSI reached the terminal");
+        assert!(!out.contains('\x07'), "BEL reached the terminal");
+    }
+
+    #[test]
+    fn empty_token_does_not_panic() {
+        let words = vec![crate::api::TimelineWord(String::new(), 3, 1.0)];
+        let app = App::new("t".into(), "b".into(), words, 300, 0);
+        let mut t = Terminal::new(ratatui::backend::TestBackend::new(80, 24)).unwrap();
+        t.draw(|f| draw_reader(f, &app)).unwrap();
     }
 }
